@@ -1,0 +1,99 @@
+{
+    "logo": {
+        "source": "~/.config/fastfetch/logo/fastfetch.png", // or type your distro name in brackets: "arch"
+        "height": 21,
+        "width": 40,
+        "padding": {
+            "top": 1,
+            "left": 3
+        },
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "                                 Hardware"
+        },
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "host",
+            "key": " PC",
+        },
+        {
+            "type": "cpu",
+            "key": " CPU",
+        },
+        {
+            "type": "gpu",
+            "key": " GPU",
+        },
+        {
+            "type": "display",
+            "key": " Display",
+        },
+        {
+            "type": "memory",
+            "key": " Memory",
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "                                 Software"
+        },
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " OS",
+        },
+        {
+            "type": "de",
+            "key": " DE",
+        },
+        {
+            "type": "wm",
+            "key": " WM",
+        },
+        {
+            "type": "lm",
+            "key": " LM",
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────────────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": "                                   Time"
+        },
+        {
+            "type": "custom",
+            "format": "┌─────────────────────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "type": "packages",
+            "key": " Packages",
+        },
+        {
+            "type": "disk",
+            "key": " OS Age",
+            "folders": "/",
+            "format": "{days} days",
+        },
+        {
+            "type": "uptime",
+            "key": " Uptime",
+        },
+        {
+            "type": "custom",
+            "format": "└─────────────────────────────────────────────────────────────────────────────┘"
+        },
+    ]
+}
