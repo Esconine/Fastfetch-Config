@@ -33,4 +33,4 @@ rm -rf ~/.config/fastfetch && cp -r ~/Fastfetch-Config/fastfetch ~/.config/fastf
 >
 > 2. Move your image into the "~/.config/fastfetch/logo" directory and rename it to "fastfetch.png"
 
-![](fastfetch/logo/fastfetch.png)
+![](Screenshots/fastfetch.png)
